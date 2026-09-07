@@ -8,23 +8,19 @@ The dataset used is TSLA.csv, which contains historical stock data for Tesla (TS
 
 Technologies Used
 Python
-Pandas (for data manipulation)
-NumPy (for numerical operations)
-Matplotlib (for data visualization)
-Scikit-learn (for data scaling)
-Keras (for building and training the LSTM model)
+1.Pandas (for data manipulation)
+2.NumPy (for numerical operations)
+3.Matplotlib (for data visualization)
+4.Scikit-learn (for data scaling)
+5.Keras (for building and training the LSTM model)
 
 Notebook Structure
 
-Data Loading and Initial Exploration: Loads the TSLA.csv dataset and displays the first few rows.
-
-Data Visualization: Plots the historical stock prices.
-
-Data Splitting: Divides the dataset into training and testing sets.
-
-Data Preprocessing: Applies MinMaxScaler to normalize the 'Open' stock prices and creates sequences for LSTM training.
-
-LSTM Model Construction: Defines a sequential LSTM model with multiple LSTM layers and Dropout for regularization, followed by a Dense output layer.
+1.Data Loading and Initial Exploration: Loads the TSLA.csv dataset and displays the first few rows.
+2.Data Visualization: Plots the historical stock prices.
+3.Data Splitting: Divides the dataset into training and testing sets.
+4.Data Preprocessing: Applies MinMaxScaler to normalize the 'Open' stock prices and creates sequences for LSTM training.
+5.LSTM Model Construction: Defines a sequential LSTM model with multiple LSTM layers and Dropout for regularization, followed by a Dense output layer.
 
 Model Training: Compiles and trains the LSTM model.
 
